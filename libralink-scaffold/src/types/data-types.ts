@@ -1,3 +1,7 @@
+export interface RealtimeEvent {
+  type: "room_update" | "booking_created" | "waitlist_advance" | "conflict";
+  payload: unknown;
+}
 export type ResourceStatus = "available" | "booked" | "maintenance" | "occupied";
 
 export type BookingStatus = "active" | "completed" | "overdue" | "pending" | "cancelled";
