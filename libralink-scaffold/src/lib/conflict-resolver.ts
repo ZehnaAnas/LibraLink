@@ -19,12 +19,10 @@ export const resolveBookingConflict = (
       message: `Booking failed for ${currentRoom.name}: Content was updated by another session.`,
       read: false,
       channels: ["push"],
-      timestamp: Math.floor(Date.now() / 1000), // Adjusted to Unix timestamp in seconds
+      timestamp: Math.floor(Date.now() / 1000),
     };
-
     useNotificationStore.getState().addNotification(conflictAlert);
     return false;
   }
-
   return true;
 };
