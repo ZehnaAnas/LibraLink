@@ -123,7 +123,7 @@ export const AdminDashboard: React.FC = () => {
                 <div className="w-full flex-1 flex items-center justify-center text-xs text-gray-400 font-mono">
                   {/* Wrap charts in a ResponsiveContainer with a 100% width and 300px height per documentation requirements */}
                   <div className="text-center p-4 border rounded bg-white shadow-sm w-full h-[280px] flex items-center justify-center">
-                    &lt;ResponsiveContainer width="100%" height=\{300\}&gt;<br/>
+                    {'<ResponsiveContainer width="100%" height={300}>'}
                     [{chartName} Display Instance Ready]
                   </div>
                 </div>
