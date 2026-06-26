@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Placeholder from "@/pages/Placeholder";
+import Workflow from "@/pages/Workflow";
 
 export const ROUTES = {
   LANDING: "/",
@@ -28,5 +29,5 @@ export const router = createBrowserRouter([
   { path: ROUTES.OVERDUE, element: <Placeholder name="Overdue" /> },
   { path: ROUTES.STAFF, element: <Placeholder name="Staff Dashboard" /> },
   { path: ROUTES.ADMIN, element: <Placeholder name="Admin Dashboard" /> },
-  { path: ROUTES.WORKFLOW, element: <Placeholder name="Workflow" /> },
+  { path: ROUTES.WORKFLOW, element: <Workflow /> },
 ]);
