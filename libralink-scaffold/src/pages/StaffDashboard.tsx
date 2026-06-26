@@ -1,6 +1,7 @@
 // src/pages/StaffDashboard.tsx
 import React, { useState, useEffect } from 'react';
-import { QuickActionBar, ScanResult } from '../components/staff/QuickActionBar';
+import { QuickActionBar } from '../components/staff/QuickActionBar';
+import type { ScanResult } from '../components/staff/QuickActionBar';
 import { RapidResolutionCard } from '../components/staff/RapidResolutionCard';
 import { StaffCommandPalette } from '../components/staff/StaffCommandPalette';
 import { UrgencyFlagReview } from '../components/staff/UrgencyFlagReview';

@@ -1,7 +1,7 @@
 // src/components/staff/RapidResolutionCard.tsx
 import React, { useEffect } from 'react';
 import { trapFocus } from '../../lib/focus-manager';
-import { ScanResult } from './QuickActionBar';
+import type { ScanResult } from './QuickActionBar';
 
 interface RapidResolutionCardProps {
   scanResult: ScanResult;
