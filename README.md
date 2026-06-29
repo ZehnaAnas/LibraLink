@@ -1,6 +1,6 @@
 # LibraLink
 
-Library Resource & Study Space Management System — prototype built for CIPHER 2.0 by Team Axiom V.
+Library Resource & Study Space Management System — prototype built for fun
 
 ## How to Run
 
